@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common
+﻿namespace Consul
 {
     public class Class1
     {

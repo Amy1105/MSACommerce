@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSACommerce.UserService.Core", "MSACommerce.UserService.Core.csproj", "{A31B0701-3FE2-4206-AF15-0ADBC837FDF3}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Common", "..\Infrastructure.Common\Infrastructure.Common.csproj", "{5B1D5E00-9A41-4A3C-AC43-6ACDA3914B20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Common", "..\UseCases.Common\UseCases.Common.csproj", "{F8F2A9C7-CA62-4CDF-83F5-782770D56A94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pakages", "pakages", "{A1611BEF-338B-4817-AB8C-35D17D4BBD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Consul", "..\Common.Consul\Common.Consul.csproj", "{62AF1417-FB78-4037-9B90-385E3D9BE325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{F8F2A9C7-CA62-4CDF-83F5-782770D56A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F2A9C7-CA62-4CDF-83F5-782770D56A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F2A9C7-CA62-4CDF-83F5-782770D56A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AF1417-FB78-4037-9B90-385E3D9BE325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AF1417-FB78-4037-9B90-385E3D9BE325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AF1417-FB78-4037-9B90-385E3D9BE325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AF1417-FB78-4037-9B90-385E3D9BE325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +58,6 @@ Global
 		{9960B96D-39FC-4271-8343-09BC7C466D49} = {EA4F1D3D-01D4-4044-9F85-77DA47CD158B}
 		{5B1D5E00-9A41-4A3C-AC43-6ACDA3914B20} = {EA4F1D3D-01D4-4044-9F85-77DA47CD158B}
 		{F8F2A9C7-CA62-4CDF-83F5-782770D56A94} = {EA4F1D3D-01D4-4044-9F85-77DA47CD158B}
+		{62AF1417-FB78-4037-9B90-385E3D9BE325} = {A1611BEF-338B-4817-AB8C-35D17D4BBD1D}
 	EndGlobalSection
 EndGlobal

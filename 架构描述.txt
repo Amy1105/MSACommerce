@@ -1,0 +1,5 @@
+- shared
+	- SharedKernel  领域实体、领域事件、返回结果
+	- UseCases.Common 公共获取验证信息，异常配置
+	- Infrastructure.EntityFrameworkCore 基础设施：EFCore设置公共拦截器
+
