@@ -3,3 +3,6 @@
 	- UseCases.Common 公共获取验证信息，异常配置
 	- Infrastructure.EntityFrameworkCore 基础设施：EFCore设置公共拦截器
 
+
+- packages
+	- Common.Consul  配置公共服务发现
