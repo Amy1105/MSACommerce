@@ -1,6 +1,10 @@
 ﻿using Common.Consul.ServiceDiscovery;
 using CommonServiceClient.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
+
+
+
+
 namespace CommonServiceClient
 {
     public static class ServiceClientExtension
@@ -17,6 +21,7 @@ namespace CommonServiceClient
 
             services.AddLoadBalancer<TServiceClient>(serviceClientOption.LoadBalancingStrategy);
 
+            //refit.httpclientfactory包中的
             services.AddHttpClient<TServiceClient>(configureHttpClient);
 
             services.AddScoped<TServiceClient>();

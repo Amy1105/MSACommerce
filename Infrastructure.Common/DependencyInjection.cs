@@ -23,11 +23,13 @@ namespace Infrastructure.Common
             services.Configure<ServiceConfiguration>(configurationSection);
 
             services.AddConsul();
+            //配置服务发现中心功能。包括指定Consul中心地址、健康检查
             services.AddConsulService(serviceConfiguration =>
             {
                 serviceConfiguration.ServiceAddress = new Uri(configuration["urls"] ?? configuration["applicationUrl"]);
             }, serviceCheck);
 
+            //配置服务发现功能
             services.AddConsulDiscovery();
         }
     }

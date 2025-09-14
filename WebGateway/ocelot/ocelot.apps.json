@@ -1,0 +1,14 @@
+{
+  "Routes": [
+    {
+      "ServiceName": "Zhaoxi.MSACommerce.AuthServer",
+      "DownstreamPathTemplate": "/api/token/{path}",
+      "DownstreamScheme": "http",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/api/token/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    }
+  ]
+}
