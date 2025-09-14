@@ -10,6 +10,12 @@ namespace UserService.Infrastructure
 {
     public static class DependencyInjection
     {
+        /// <summary>
+        /// 配置基础设施
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration)
         {
@@ -24,7 +30,7 @@ namespace UserService.Infrastructure
 
             return services;
         }
-
+     
         private static void ConfigureEfCore(IServiceCollection services, IConfiguration configuration)
         {
             var dbConnection = configuration.GetConnectionString("UserDbConnection");

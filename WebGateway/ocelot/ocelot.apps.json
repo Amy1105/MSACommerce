@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "ServiceName": "Zhaoxi.MSACommerce.AuthServer",
+      "ServiceName": "AuthServer",
       "DownstreamPathTemplate": "/api/token/{path}",
       "DownstreamScheme": "http",
       "LoadBalancerOptions": {

@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "ServiceName": "Zhaoxi.MSACommerce.UserService.HttpApi",
+      "ServiceName": "UserService.HttpApi",
       "DownstreamPathTemplate": "/api/user/{path}",
       "DownstreamScheme": "http",
       "LoadBalancerOptions": {
@@ -11,7 +11,7 @@
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
     },
     {
-      "ServiceName": "Zhaoxi.MSACommerce.UserService.HttpApi",
+      "ServiceName": "UserService.HttpApi",
       "DownstreamPathTemplate": "/api/user/test",
       "DownstreamScheme": "http",
       "LoadBalancerOptions": {
